@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive-Pricing-Sector</title>
+    <link rel="icon" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <img class="bg-img" src="images/bg-pattern.svg" alt="bg-img">
+
+    <header class="intro">
+        <h3>Simple, traffic-base pricing</h3>
+        <p>Sign-up for our 30-day trial. No creadit card requred.</p>
+        <img src="images/pattern-circles.svg">
+    </header>
+
+    <main>
+        <section class="pricing">
+            <p class="pageviews">100k pageviews</p>
+
+            <div class="pricing-range">
+                <input type="range" min="0" max="100" value="50" id="range">
+            </div>
+
+            <p class="cost-container">
+                <span class="cost">$16.00</span> <sup>/month</sup>
+            </p>
+
+            <div class="billing">
+                <p >Monthly Billing</p>
+
+                <label class="toggle" for="switch">
+                    <input type="checkbox" id="switch">
+                    <span class="slider"></span>
+                </label>
+
+                <p>Yearly Billing</p>
+
+                <p class="discount">-25% <span>discount</span></p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="sign-up">
+            <div>
+                <div class="features">
+                    <img src="images/icon-check.svg" alt="icon-check">
+                    <p>Unlimited websites</p>
+                </div>
+                <div class="features">
+                    <img src="images/icon-check.svg" alt="icon-check">
+                    <p>100% Data ownership</p>
+                </div>
+                <div class="features">
+                    <img src="images/icon-check.svg" alt="icon-check">
+                    <p>Email report</p>
+                </div>
+            </div>
+            <div class="btn">
+                <button>Start my trial</button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Challenge by <a href="https://www.frontendmentor.io/?ref=challenge">
+            Frontend Mentor.</a> Coded by <a href="#">Chibuzor.</a>
+        </p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
